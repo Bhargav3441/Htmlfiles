@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            width: 100%;
+            Height: 100%;
+            Margin-top: 5%
+        }
+        
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            padding: 20px;
+            text-align: left;
+        }
+        
+        #t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+        
+        #t01 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        
+        #t01 th {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center ;background-color:Red">Student Database</h1>
+    <b>
+<p style=" font-size:200%">
+
+Student Database is a all student total attandence student marks student all activity performance student progress All the data of student is inserted in student database.
+</p>
+</b>
+    <h2 style="text-align: center ;background-color:Red">List of the Student</h2>
+    <table>
+        <tr>
+
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Division</th>
+            <th>Result</th>
+
+        </tr>
+        <tr>
+
+            <td><b> Nisarg </b></td>
+            <td><b> 101 </b></td>
+            <td><b> A </b></td>
+            <td><b> 95.95% </b> </td>
+
+        </tr>
+        <tr>
+
+            <td><b>Rohan</b></td>
+            <td><b> 102 </b></td>
+            <td><b> A</b></td>
+            <td><b> 92.80%</b></td>
+
+        </tr>
+
+        <tr>
+            <td><b> Bhavesh</b></td>
+            <td><b> 103</b></td>
+            <td><b> A</b></td>
+            <td><b>90.56% </b></td>
+        </tr>
+        <tr>
+            <td><b> Raj </b></td>
+            <td><b> 104</b></td>
+            <td><b> B</b></td>
+            <td><b> 95.98% </b></td>
+        </tr>
+        <tr>
+            <td><b>Rakesh </b></td>
+            <td><b> 103</b></td>
+            <td><b> B</b></td>
+            <td><b> 96.78%</b></td>
+        </tr>
+
+    </table>
+    <br>
+    <h2 style="text-align: center ; color:Red"> <b>---------All The Data of a Topper Student of The All Division--------- </b></h2>
+</body>
+
+</html>
